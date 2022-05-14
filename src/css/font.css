@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'calligraffitiregular';
+    src: url('../fonts/Calligraffiti-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MaplestoryOTFLight";
+    src: url("../fonts/MaplestoryOTFLight.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
