@@ -5,56 +5,56 @@
             "serverName": "실리안",
             "characterName": "김뷰엘",
             "content": "테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다.",
-            "image": "src/images/list/test.png"
+            "image": "https://for-goldriver-files.s3.ap-northeast-2.amazonaws.com/test.png"
         },
         {
             "id": 2,
             "serverName": "실리안",
             "characterName": "김뷰엘",
-            "content": "테스트입니다.",
-            "image": "src/images/list/test.png"
+            "content": "테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다.",
+            "image": "https://for-goldriver-files.s3.ap-northeast-2.amazonaws.com/test.png"
         },
         {
             "id": 3,
             "serverName": "실리안",
             "characterName": "김뷰엘",
-            "content": "테스트입니다.",
-            "image": "src/images/list/test.png"
+            "content": "테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다.",
+            "image": "https://for-goldriver-files.s3.ap-northeast-2.amazonaws.com/test.png"
         },
         {
             "id": 4,
             "serverName": "실리안",
             "characterName": "김뷰엘",
-            "content": "테스트입니다.",
-            "image": "src/images/list/test.png"
+            "content": "테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다.",
+            "image": "https://for-goldriver-files.s3.ap-northeast-2.amazonaws.com/test.png"
         },
         {
             "id": 5,
             "serverName": "실리안",
             "characterName": "김뷰엘",
-            "content": "테스트입니다.",
-            "image": "src/images/list/test.png"
+            "content": "테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다.",
+            "image": "https://for-goldriver-files.s3.ap-northeast-2.amazonaws.com/test.png"
         },
         {
             "id": 6,
             "serverName": "실리안",
             "characterName": "김뷰엘",
-            "content": "테스트입니다.",
-            "image": "src/images/list/test.png"
+            "content": "테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다.",
+            "image": "https://for-goldriver-files.s3.ap-northeast-2.amazonaws.com/test.png"
         },
         {
             "id": 7,
             "serverName": "실리안",
             "characterName": "김뷰엘",
-            "content": "테스트입니다.",
-            "image": "src/images/list/test.png"
+            "content": "테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다.",
+            "image": "https://for-goldriver-files.s3.ap-northeast-2.amazonaws.com/test.png"
         },
         {
             "id": 8,
             "serverName": "실리안",
             "characterName": "김뷰엘",
-            "content": "테스트입니다.",
-            "image": "src/images/list/test.png"
+            "content": "테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다.",
+            "image": "https://for-goldriver-files.s3.ap-northeast-2.amazonaws.com/test.png"
         }
     ]
 }
