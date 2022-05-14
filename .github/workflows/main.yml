@@ -43,6 +43,8 @@ jobs:
         run: |
           unset CI
           npm run build
+        env:
+          VITE_API_URI: ${{ secrets.VITE_API_URI }}
 
       # Deploy to the S3 server
       - name: Deploy to S3
