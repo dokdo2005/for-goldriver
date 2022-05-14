@@ -11,10 +11,10 @@ function MessageList() {
           <div className="msgWriter">
             {message.characterName}@{message.serverName}
           </div>
-          <div className="msgContent">{message.content}</div>
           <div className="msgImage">
-            {message.image ? <img src={message.image} width={"70%"} /> : null}
+            {message.image ? <img src={message.image} width={"100%"} /> : null}
           </div>
+          <div className="msgContent">{message.content}</div>
         </div>
       ))}
     </div>
