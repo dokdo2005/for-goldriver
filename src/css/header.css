@@ -31,6 +31,12 @@
     text-align: center;
 }
 
+.creditText {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 10pt;
+}
+
 .headerImage {
     text-align: center;
 }
