@@ -1,0 +1,57 @@
+@media (min-width: 1025px) {
+    .msgListEntry {
+        width: 20%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .msgListEntry {
+        width: 30%;
+    }
+}
+
+@media (max-width: 767px) {
+    .msgListEntry {
+        width: 80%;
+    }
+}
+
+.msgListContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.msgListEntry {
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, .5);
+    margin: 5px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.msgWriter {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: "MaplestoryOTFLight";
+    font-weight: bold;
+}
+
+.msgContent {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    word-break: break-all;
+    font-family: "MaplestoryOTFLight";
+}
+
+.msgImage {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
