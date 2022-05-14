@@ -8,11 +8,11 @@ function MessageList() {
     <div className="msgListContainer">
       {messages.map((message) => (
         <div className="msgListEntry" key={message.id}>
-          <div className="msgWriter">
-            {message.characterName}@{message.serverName}
-          </div>
           <div className="msgImage">
             {message.image ? <img src={message.image} width={"100%"} /> : null}
+          </div>
+          <div className="msgWriter">
+            {message.characterName}@{message.serverName}
           </div>
           <div className="msgContent">{message.content}</div>
         </div>
