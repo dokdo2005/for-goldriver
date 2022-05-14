@@ -1,0 +1,36 @@
+.headerContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.headerImage {
+    flex: 1;
+}
+
+.headerText {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerTitle {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'calligraffitiregular';
+    font-size: 20pt;
+}
+
+.headerDesc {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 10pt;
+    text-align: center;
+}
+
+.headerImage {
+    text-align: center;
+}

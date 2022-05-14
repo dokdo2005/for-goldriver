@@ -1,9 +1,10 @@
 import "../css/App.css";
+import Header from "./header";
 
 function App() {
   return (
     <div className="App">
-      <div className="fontTest">This is a Test</div>
+      <Header />
     </div>
   );
 }
