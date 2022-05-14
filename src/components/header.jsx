@@ -13,7 +13,7 @@ function Header() {
         <div className="headerTitle">Good Bye, My Dear</div>
         <div className="headerDesc">
           <div>우리에게 늘 꿈을 꾸게 해준 당신,</div>
-          <div>고맙습니다</div>
+          <div>감사합니다</div>
         </div>
       </div>
     </div>
