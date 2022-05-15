@@ -4,12 +4,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faVolumeHigh, faVolumeXmark } from "@fortawesome/free-solid-svg-icons";
 import BgMusic from "../music/journeys_end.mp3";
 import "../css/musicButton.css";
-import { setRouteState } from "../features/checkRouteSlice";
 
 function MusicButton() {
   const routeState = useSelector((state) => state.route.value);
   const [audio] = useState(new Audio(BgMusic));
-  const [playing, setPlaying] = useState(routeState ? true : false);
+  const [playing, setPlaying] = useState(routeState);
 
   useEffect(() => {
     playing ? audio.play() : audio.pause();

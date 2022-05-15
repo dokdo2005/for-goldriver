@@ -1,6 +1,8 @@
 import { React, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAnglesRight } from "@fortawesome/free-solid-svg-icons";
 import "../css/mainScreen.css";
 import "../css/header.css";
 import "../css/font.css";
@@ -41,7 +43,10 @@ function MainScreen() {
         </div>
         <div>&nbsp;</div>
         <div className="mainScreenBtn">
-          <button onClick={() => goList()}>편지 읽으러 가기</button>
+          <button onClick={() => goList()}>
+            Go&nbsp;&nbsp;
+            <FontAwesomeIcon icon={faAnglesRight} />
+          </button>
         </div>
         <div>&nbsp;</div>
         <div className="creditText">Made by 김뷰엘 with ❤️</div>
