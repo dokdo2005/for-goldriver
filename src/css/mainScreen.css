@@ -1,0 +1,61 @@
+.mainScreenContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainScreenImage {
+  flex: 1;
+}
+
+.mainScreenImage > img {
+  width: 150pt;
+}
+
+.mainScreenText {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainScreenTitle {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: 'calligraffitiregular';
+  font-size: 30pt;
+}
+
+.mainScreenQuote {
+  word-break: keep-all;
+  border: 5px solid rgba(255, 255, 255, .2);
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.quoteFooter {
+  margin-top: 5px;
+  font-size: 10pt;
+}
+
+.mainScreenDesc {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.creditText {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 10pt;
+}
+
+.mainScreenImage {
+  text-align: center;
+}

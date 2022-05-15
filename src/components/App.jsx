@@ -1,15 +1,17 @@
-import "../css/App.css";
-import MusicButton from "./musicButton";
-import Header from "./header";
-import MessageList from "./messageList";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import MainScreen from "./mainScreen";
+import MessageScreen from "./messageScreen";
 
 function App() {
   return (
-    <div className="App">
-      <MusicButton />
-      <Header />
-      <MessageList />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/">
+          <Route index element={<MainScreen />} />
+          <Route path="list" element={<MessageScreen />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
