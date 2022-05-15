@@ -8,11 +8,11 @@
 }
 
 .headerImage {
-    flex: 1;
+    text-align: center;
 }
 
 .headerImage > img {
-    width: 150pt;
+    width: 100pt;
 }
 
 .headerText {
@@ -30,20 +30,6 @@
     font-size: 30pt;
 }
 
-.headerQuote {
-    word-break: keep-all;
-    border: 5px solid rgba(255, 255, 255, .2);
-    border-radius: 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.quoteFooter {
-    margin-top: 5px;
-    font-size: 10pt;
-}
-
 .headerDesc {
     margin-top: 5px;
     margin-bottom: 5px;
@@ -54,8 +40,4 @@
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 10pt;
-}
-
-.headerImage {
-    text-align: center;
 }

@@ -1,10 +1,14 @@
 import React from "react";
 import "../css/header.css";
 import "../css/font.css";
+import GoldRiver from "../images/goldriver.png";
 
 function Header() {
   return (
     <div className="headerContainer">
+      <div className="headerImage">
+        <img src={GoldRiver} />
+      </div>
       <div className="headerText">
         <div className="headerTitle">Good Bye, My Dear</div>
         <div className="headerDesc">
