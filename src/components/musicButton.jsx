@@ -6,7 +6,7 @@ import "../css/musicButton.css";
 
 function MusicButton() {
   const [audio] = useState(new Audio(BgMusic));
-  const [playing, setPlaying] = useState(false);
+  const [playing, setPlaying] = useState(true);
 
   useEffect(() => {
     playing ? audio.play() : audio.pause();
