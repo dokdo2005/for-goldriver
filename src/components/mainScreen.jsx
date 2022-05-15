@@ -1,12 +1,24 @@
-import React from "react";
+import { React, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import { useDispatch } from "react-redux";
 import "../css/mainScreen.css";
 import "../css/header.css";
 import "../css/font.css";
 import GoldRiver from "../images/goldriver.png";
+import { setRouteState } from "../features/checkRouteSlice";
 
 function MainScreen() {
   const navigate = useNavigate();
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(setRouteState(false));
+  }, []);
+
+  const goList = () => {
+    dispatch(setRouteState(true));
+    navigate("/list");
+  };
 
   return (
     <div className="mainScreenContainer">
@@ -29,7 +41,7 @@ function MainScreen() {
         </div>
         <div>&nbsp;</div>
         <div className="mainScreenBtn">
-          <button onClick={() => navigate("/list")}>편지 읽으러 가기</button>
+          <button onClick={() => goList()}>편지 읽으러 가기</button>
         </div>
         <div>&nbsp;</div>
         <div className="creditText">Made by 김뷰엘 with ❤️</div>
