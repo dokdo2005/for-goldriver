@@ -10,10 +10,15 @@ function MusicButton() {
 
   useEffect(() => {
     playing ? audio.play() : audio.pause();
+    return () => {
+      audio.pause();
+      audio.currentTime = 0;
+    };
   }, [playing]);
 
   const togglePlay = () => {
     playing ? setPlaying(false) : setPlaying(true);
+    return setPlaying(false);
   };
 
   audio.loop = true;
