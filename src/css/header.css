@@ -4,10 +4,15 @@
     margin-top: 10px;
     margin-bottom: 10px;
     justify-content: center;
+    width: 90%;
 }
 
 .headerImage {
     flex: 1;
+}
+
+.headerImage > img {
+    width: 150pt;
 }
 
 .headerText {
@@ -23,6 +28,20 @@
     margin-bottom: 5px;
     font-family: 'calligraffitiregular';
     font-size: 30pt;
+}
+
+.headerQuote {
+    word-break: keep-all;
+    border: 5px solid rgba(255, 255, 255, .2);
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.quoteFooter {
+    margin-top: 5px;
+    font-size: 10pt;
 }
 
 .headerDesc {
