@@ -30,6 +30,7 @@
 }
 
 .mainScreenQuote {
+  width: 90%;
   word-break: keep-all;
   border: 5px solid rgba(255, 255, 255, .2);
   border-radius: 30px;
