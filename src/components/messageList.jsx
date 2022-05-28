@@ -2,7 +2,7 @@ import { React, useState, useEffect } from "react";
 import axios from "axios";
 import "../css/font.css";
 import "../css/messageList.css";
-// import { messageList } from "../json/messageData.json";
+import NoImage from "../images/no_image.jpg";
 
 function MessageList() {
   const [messageList, setMsgList] = useState([]);
@@ -23,7 +23,7 @@ function MessageList() {
       {messageList.map((message) => (
         <div className="msgListEntry" key={message.id}>
           <div className="msgImage">
-            {message.image ? <img src={message.image} width={"100%"} /> : null}
+            <img src={message.image || NoImage} width={"100%"} />
           </div>
           <div className="msgWriter">
             {message.characterName}@{message.serverName}

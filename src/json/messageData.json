@@ -5,56 +5,56 @@
             "serverName": "실리안",
             "characterName": "김뷰엘",
             "content": "테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다.",
-            "image": "https://for-goldriver-files.s3.ap-northeast-2.amazonaws.com/test.png"
+            "image": null
         },
         {
             "id": 2,
             "serverName": "실리안",
             "characterName": "김뷰엘",
             "content": "테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다.",
-            "image": "https://for-goldriver-files.s3.ap-northeast-2.amazonaws.com/test.png"
+            "image": null
         },
         {
             "id": 3,
             "serverName": "실리안",
             "characterName": "김뷰엘",
             "content": "테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다.",
-            "image": "https://for-goldriver-files.s3.ap-northeast-2.amazonaws.com/test.png"
+            "image": null
         },
         {
             "id": 4,
             "serverName": "실리안",
             "characterName": "김뷰엘",
             "content": "테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다.",
-            "image": "https://for-goldriver-files.s3.ap-northeast-2.amazonaws.com/test.png"
+            "image": null
         },
         {
             "id": 5,
             "serverName": "실리안",
             "characterName": "김뷰엘",
             "content": "테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다.",
-            "image": "https://for-goldriver-files.s3.ap-northeast-2.amazonaws.com/test.png"
+            "image": null
         },
         {
             "id": 6,
             "serverName": "실리안",
             "characterName": "김뷰엘",
             "content": "테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다.",
-            "image": "https://for-goldriver-files.s3.ap-northeast-2.amazonaws.com/test.png"
+            "image": null
         },
         {
             "id": 7,
             "serverName": "실리안",
             "characterName": "김뷰엘",
             "content": "테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다.",
-            "image": "https://for-goldriver-files.s3.ap-northeast-2.amazonaws.com/test.png"
+            "image": null
         },
         {
             "id": 8,
             "serverName": "실리안",
             "characterName": "김뷰엘",
             "content": "테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다. 테스트입니다.",
-            "image": "https://for-goldriver-files.s3.ap-northeast-2.amazonaws.com/test.png"
+            "image": null
         }
     ]
 }
