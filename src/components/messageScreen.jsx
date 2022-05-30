@@ -1,3 +1,4 @@
+import useScrollPosition from "../hooks/useScrollPosition";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 import "../css/messageScreen.css";
@@ -6,8 +7,10 @@ import Header from "./header";
 import MessageList from "./messageList";
 
 function MessageScreen() {
+  const scrollPosition = useScrollPosition();
+
   const scrollTop = () => {
-    if (window.scrollY !== 0) {
+    if (scrollPosition !== 0) {
       window.scroll(0, 0);
     }
   };
@@ -17,9 +20,11 @@ function MessageScreen() {
       <MusicButton />
       <Header />
       <MessageList />
-      <button className="goTopButton">
-        <FontAwesomeIcon icon={faArrowUp} onClick={() => scrollTop()} />
-      </button>
+      {scrollPosition !== 0 ? (
+        <button className="goTopButton">
+          <FontAwesomeIcon icon={faArrowUp} onClick={() => scrollTop()} />
+        </button>
+      ) : null}
     </div>
   );
 }
