@@ -6,10 +6,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/">
-          <Route index element={<MainScreen />} />
-          <Route path="list" element={<MessageScreen />} />
-        </Route>
+        <Route path="/" element={<MainScreen />} />
+        <Route path="list" element={<MessageScreen />} />
       </Routes>
     </BrowserRouter>
   );
