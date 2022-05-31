@@ -23,7 +23,13 @@ function MessageList() {
       {messageList.map((message) => (
         <div className="msgListEntry" key={message.id}>
           <div className="msgImage">
-            <img src={message.image || NoImage} width={"100%"} />
+            {message.image ? (
+              <a href={message.image} target="_blank">
+                <img src={message.image} width={"100%"} />
+              </a>
+            ) : (
+              <img src={NoImage} width={"100%"} />
+            )}
           </div>
           <div className="msgWriter">
             {message.characterName}@{message.serverName}
