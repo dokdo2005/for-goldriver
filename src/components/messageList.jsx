@@ -37,6 +37,7 @@ function MessageList() {
           <div className="msgContent">{message.content}</div>
         </div>
       ))}
+      <div className="itemHidden"></div>
     </div>
   );
 }
