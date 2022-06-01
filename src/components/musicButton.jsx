@@ -12,7 +12,7 @@ function MusicButton() {
 
   useEffect(() => {
     if (playing) {
-      setTimeout(function () {
+      setTimeout(() => {
         audio.play();
       }, 0);
     } else {
