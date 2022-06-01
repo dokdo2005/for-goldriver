@@ -11,7 +11,13 @@ function MusicButton() {
   const [playing, setPlaying] = useState(routeState);
 
   useEffect(() => {
-    playing ? audio.play() : audio.pause();
+    if (playing) {
+      setTimeout(function () {
+        audio.play();
+      }, 0);
+    } else {
+      audio.pause();
+    }
   }, [playing]);
 
   useEffect(() => {
