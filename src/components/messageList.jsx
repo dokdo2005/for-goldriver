@@ -1,4 +1,6 @@
 import { React, useState, useEffect } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMagnifyingGlassPlus } from "@fortawesome/free-solid-svg-icons";
 import axios from "axios";
 import "../css/font.css";
 import "../css/messageList.css";
@@ -27,7 +29,11 @@ function MessageList() {
               <div
                 className="msgImage"
                 style={{ backgroundImage: `url(${message.image})` }}
-              ></div>
+              >
+                <div className="imageEnlarge">
+                  <FontAwesomeIcon icon={faMagnifyingGlassPlus} />
+                </div>
+              </div>
             </a>
           ) : (
             <div
