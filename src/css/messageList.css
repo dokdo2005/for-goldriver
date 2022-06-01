@@ -57,17 +57,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 20px;
     margin-top: 5px;
     margin-bottom: 5px;
     width: 100%;
     aspect-ratio: 1 / 1;
-}
-
-.msgImage > img,
-.msgImage > a > img {
-    border-radius: 20px;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .itemHidden {

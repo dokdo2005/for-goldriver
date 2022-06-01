@@ -22,15 +22,19 @@ function MessageList() {
     <div className="msgListContainer">
       {messageList.map((message) => (
         <div className="msgListEntry" key={message.id}>
-          <div className="msgImage">
-            {message.image ? (
-              <a href={message.image} target="_blank">
-                <img src={message.image} width={"100%"} />
-              </a>
-            ) : (
-              <img src={NoImage} width={"100%"} />
-            )}
-          </div>
+          {message.image ? (
+            <a href={message.image} target="_blank">
+              <div
+                className="msgImage"
+                style={{ backgroundImage: `url(${message.image})` }}
+              ></div>
+            </a>
+          ) : (
+            <div
+              className="msgImage"
+              style={{ backgroundImage: `url(${NoImage})` }}
+            ></div>
+          )}
           <div className="msgWriter">
             {message.characterName}@{message.serverName}
           </div>
