@@ -18,14 +18,11 @@ function MusicButton() {
     } else {
       audio.pause();
     }
-  }, [playing]);
-
-  useEffect(() => {
     return () => {
       audio.pause();
       audio.currentTime = 0;
     };
-  }, []);
+  }, [playing]);
 
   const togglePlay = () => {
     playing ? setPlaying(false) : setPlaying(true);
